@@ -11,7 +11,7 @@ This project is an end-to-end system that assesses credit risk for borrowers wit
 4. **Stage 4: Predictive Modelling** - Training separate XGBoost models for thin file and traditional borrowers to avoid bias.
 5. **Stage 5: SQL Database** - A star schema storing borrower data, risk assessments, and alternative data signals.
 6. **Stage 6: Analytical Queries** - SQL queries answering real lending business questions.
-7. **Stage 7: Power BI Dashboard** - A guide to visualize operational metrics.
+7. **Stage 7: Streamlit Dashboard** - An interactive web dashboard to visualize operational metrics.
 8. **Stage 8: Business Insights** - Executive report answering profitability and scaling questions.
 
 ## How to Run the Pipeline
@@ -41,10 +41,13 @@ This project is an end-to-end system that assesses credit risk for borrowers wit
    python 5_sql_database/load_data_to_sqlite.py
    ```
 7. Review `6_analytical_queries/lending_decision_queries.sql` for analytical SQL queries.
-8. Review `7_power_bi/PowerBI_Setup_Guide.md` for dashboard setup.
+8. Run the Streamlit Dashboard:
+   ```bash
+   streamlit run 7_streamlit_dashboard/app.py
+   ```
 9. Review `8_business_insights/Executive_Summary.md` for the final report.
 
 ## Tech Stack
 * **Python**: Pandas, NumPy, Scikit-Learn, XGBoost
 * **Database**: SQLite / SQL
-* **Visualization**: Power BI (concept/instructions)
+* **Visualization**: Streamlit, Plotly
