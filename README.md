@@ -14,6 +14,10 @@ This project is an end-to-end system that assesses credit risk for borrowers wit
 7. **Stage 7: Streamlit Dashboard** - An interactive web dashboard to visualize operational metrics.
 8. **Stage 8: Business Insights** - Executive report answering profitability and scaling questions.
 
+### Streamlit Dashboard Preview
+![Streamlit Dashboard Preview](Streamlit_dashboard_preview.png)
+
+
 ## How to Run the Pipeline
 
 1. Install requirements:
