@@ -2,7 +2,6 @@ pandas
 numpy
 scikit-learn
 xgboost
-matplotlib
-seaborn
 streamlit
 plotly
+tabulate
