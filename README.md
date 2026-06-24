@@ -32,13 +32,13 @@ This project is an end-to-end system that assesses credit risk for borrowers wit
    ```bash
    python 2_feature_engineering/feature_engineering.py
    ```
-4. Run borrower segmentation:
+4. Run borrower segmentation (Jupyter notebook with inline visualizations):
    ```bash
-   python 3_borrower_segmentation/segmentation_analysis.py
+   jupyter notebook 3_borrower_segmentation/segmentation_analysis.ipynb
    ```
-5. Run predictive modelling:
+5. Run predictive modelling (Jupyter notebook with ROC curves, confusion matrices, and feature importance plots):
    ```bash
-   python 4_predictive_modelling/train_xgboost_models.py
+   jupyter notebook 4_predictive_modelling/train_xgboost_models.ipynb
    ```
 6. Setup and load SQL Database:
    ```bash

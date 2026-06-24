@@ -6,3 +6,6 @@ matplotlib
 seaborn
 streamlit
 plotly
+jupyter
+tabulate
+shap>=0.46
