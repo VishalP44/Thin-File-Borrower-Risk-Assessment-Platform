@@ -2,6 +2,8 @@
 
 An end-to-end credit risk pipeline that scores "thin file" borrowers — people with little or no traditional credit history — using alternative data signals (utility payments, rent history, banking behavior, employment) instead of relying solely on a FICO-style credit score.
 
+**🔗 Live Dashboard:** [thin-file-borrower-risk-assessment-platform-qdyebxmfrumof2irqo.streamlit.app](https://thin-file-borrower-risk-assessment-platform-qdyebxmfrumof2irqo.streamlit.app/)
+
 ## Business Problem
 
 Lenders routinely reject or under-approve applicants who lack a conventional credit file, even when those applicants are creditworthy. This locks out a large segment of the market (gig workers, young borrowers, recent movers) not because they're inherently riskier, but because the data used to assess them is incomplete. This project demonstrates how alternative data can be used to extend credit decisions to that population without abandoning risk discipline.
